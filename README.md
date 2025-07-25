@@ -1,7 +1,7 @@
 # ⚛️ React Machine Coding Practice – Akshay Saini Inspired
 
 This repository contains a collection of machine coding problems built using **React** and **Vite**.  
-All projects are based on real-world frontend interview challenges, inspired by **Akshay Saini's Machine Coding Round series**.
+
 
 
 ## 📁 Projects Included
@@ -39,11 +39,8 @@ npm run dev
 
 🧠 Tech Stack
 ⚛️ React + Vite
-
 🔁 React Router DOM
-
 🎨 Custom CSS Modules
-
 🧹 ESLint for code quality
 
 This repository is inspired by the Machine Coding  Series by Akshay Saini🙌.
