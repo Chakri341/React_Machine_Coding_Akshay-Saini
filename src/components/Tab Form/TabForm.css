@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
   background-color: #f0f0f0;
-  padding: 20px;
   border-radius:20px;
 }
 .tabs-list {
@@ -24,7 +23,7 @@ body {
 }
 .tab-home-container {
   width: 400px;
-  margin: 0px auto;
+  margin: 20px auto;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.1);
