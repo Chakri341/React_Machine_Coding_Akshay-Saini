@@ -1,0 +1,50 @@
+
+.accodian-container {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.accod-header {
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.accod-main-container {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+.accod-item {
+  padding: 5px 10px;
+  background-color: #fff;
+  margin: 4px 0px;
+  border: 1px solid #ddd;
+}
+.accod-main-content {
+  background-color: #f1f1f1;
+  padding: 1px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accod-sub-content {
+  background-color: #fafafa;
+  padding: 1px 5px;
+  border-radius: 5px;
+}
+.selected-accod {
+  background-color: #e0e0e0;
+}
+
+.accod-arrow {
+  transition: transform 0.3s ease;
+}
+
+.accod-arrow.rotate {
+  transform: rotate(180deg);
+}
