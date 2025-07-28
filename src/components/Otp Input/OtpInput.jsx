@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
-import './OtpInput.css'
+import React, { useEffect, useRef, useState } from "react";
+import "./OtpInput.css";
 
 const OtpInput = () => {
   const OTP_SIZE = 5;
@@ -11,7 +11,6 @@ const OtpInput = () => {
   }, []);
 
   const handleChangeOtp = (e, index) => {
-    e.preventDefault();
     const newOtp = [...inputOtp];
     const value = e.target.value.slice(-1);
     if (isNaN(value) || value === " ") return;
@@ -45,7 +44,7 @@ const OtpInput = () => {
               key={index}
               type="text"
               ref={(ele) => (inputRefs.current[index] = ele)}
-              name="digit"
+              name={`otp-${index}`}
               className="otp-digit"
               value={inputOtp[index]}
               onChange={(e) => handleChangeOtp(e, index)}
@@ -56,7 +55,6 @@ const OtpInput = () => {
       </div>
     </div>
   );
-}
-
+};
 
 export default OtpInput;
