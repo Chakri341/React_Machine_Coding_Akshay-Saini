@@ -14,10 +14,9 @@ This repository contains a collection of machine coding problems built using **R
 | 4    | File Explorer        |
 | 5    | Progress Bar         |
 | 6    | OTP Input            |
-| 7    | Nested Checkboxes    |
-| 8    | Chips Input          |
-| 9    | Todo List            |
-| 10   | Accordion            |
+| 7    | Chips Input          |
+| 8    | Todo List            |
+| 9   | Accordion            |
 
 ---
 
