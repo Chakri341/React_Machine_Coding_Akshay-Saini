@@ -29,11 +29,11 @@ export const projectsList =[
         name:"Otp Input",
         Link:'otp-input'
     },
-    {
-        id:7,
-        name:"Nested CheckBoxes",
-        Link:'nested-checkboxes'
-    },
+    // {
+    //     id:7,
+    //     name:"Nested CheckBoxes",
+    //     Link:'nested-checkboxes'
+    // },
     {
         id:8,
         name:"Chips Input",
